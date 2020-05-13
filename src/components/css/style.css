@@ -1,0 +1,89 @@
+
+.contain{
+    background-color:#f1f1f1;
+    width: 30%;
+    height:450px;
+    border-radius: 2px;
+    margin:10px auto;
+    
+}
+#user{
+    width: 90%;
+    margin:0px auto;
+}
+#pass{
+    width:90%;
+    margin:0px auto;
+}
+.nav{
+    width: 30%;
+    margin:20px auto;
+    height: 10%;
+}
+.contain>.nav{
+    display: inline;
+    
+}
+.nav>.log-btn{
+    background-color: #ccc; /* Green */
+    border: none;
+    color: black;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid black; /* Green */
+    cursor: pointer;
+    width:50%;
+    height: 15%;
+}
+.nav>.reg-btn{
+    background-color: #ccc; /* Green */
+    border: none;
+    color: black;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid black; /* Green */
+    cursor: pointer;
+    width:50%;
+    height: 15%;
+}
+.nav>.reg-btn:hover{
+    background-color: white;
+    border: 1px solid green; /* Green */
+
+}
+.nav>.log-btn:hover{
+    background-color: white;
+    border: 1px solid green; /* Green */
+
+}
+.log-logo{
+    color: blue;
+    margin: 10px;
+    font-size: 20px;
+}
+.primary{
+    width:90%;
+    margin:20px 5%;
+    color:black;
+}
+#bt{
+    color:black;
+    background-color: white;
+    font-size: large;
+}
+.label{
+    margin:0px 5%;
+}
+.text{
+    font-size: larger;
+    color: blueviolet;
+}
+.error{
+    color:brown;
+}
